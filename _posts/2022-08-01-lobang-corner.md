@@ -12,8 +12,7 @@ image:
   alt: LobangCorner Cover Image on Google Play Store (in the past)
 carousels:
   - images: 
-    - image: 
-    /assets/img/posts/LobangCorner/LobangCorner_FeaturePreview.png
+    - image: /assets/img/posts/LobangCorner/LobangCorner_FeaturePreview.png
 ---
 
 An android application built for an assignment, **LobangCorner** aims to bring back the joy and love of sharing with its blogging and recipe features, while providing a space to promote hawker and local businesses.
