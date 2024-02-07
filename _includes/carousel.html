@@ -1,3 +1,4 @@
+
 {% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
 {% assign letters = letterstring | split: ',' %}
 {% assign number = include.number | minus: 1 %}
@@ -27,7 +28,7 @@
         <div class="carousel__track">
           <ul>
             {% for item in page.carousels[number].images %}
-            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
+            <li class="carousel__slide" style="background-image: url('{{site.baseurl}}{{ item.image }}');"></li>
             {% endfor %}
           </ul>
         </div>
@@ -41,6 +42,7 @@
 
 <style>
 .carousel__holder {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: 1rem 0 1rem;}
+
 .carousel {
   height: 100%;
   width: 100%;
@@ -79,14 +81,14 @@
 {% endfor %}
 
 .carousel__control {
-  height: 30px;
-  width: 30px;
+  height: 15px;
+  width: 15px;
   margin-top: -15px;
   top: 50%;
   position: absolute;
   display: block;
   cursor: pointer;
-  border-width: 5px 5px 0 0;
+  border-width: 2px 2px 0 0;
   border-style: solid;
   border-color: #fafafa;
   opacity: 0.35;
@@ -114,8 +116,8 @@
   text-align: center;
 }
 .carousel__indicator {
-  height: 15px;
-  width: 15px;
+  height: 8px;
+  width: 8px;
   border-radius: 100%;
   display: inline-block;
   z-index: 2;
@@ -128,6 +130,7 @@
 }
 .carousel__track {
   position: absolute;
+  display: flex;
   top: 0;
   right: 0;
   bottom: 0;
@@ -137,9 +140,13 @@
   transition: -webkit-transform 0.5s ease 0s;
   transition: transform 0.5s ease 0s;
   transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
 }
 .carousel__track .carousel__slide {
-  display: block;
+  display: flex;
   top: 0;
   left: 0;
   right: 0;
@@ -161,6 +168,7 @@
   position: absolute;
   opacity: 0;
   overflow: hidden;
+  background-size: contain;
 }
 .carousel__slide .overlay {height: 100%;}
 .carousel--thumb .carousel__indicator {
