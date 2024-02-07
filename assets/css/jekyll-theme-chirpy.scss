@@ -4,3 +4,9 @@
 @import 'main';
 
 /* append your custom style below */
+
+// Reduce carousel icon sizes
+.carousel__controls{
+    height: 15px; 
+    width: 15px;
+}

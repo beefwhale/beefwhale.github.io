@@ -10,8 +10,10 @@ tail_includes:
 ---
 
 {% include lang.html %}
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
+<head>  
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/jekyll-theme-chirpy.scss">
+</head>
 <article class="px-1">
   <header>
     <h1 data-toc-skip>{{ page.title }}</h1>
@@ -87,6 +89,14 @@ tail_includes:
     {{ content }}
   </div>
 
+  <!-- carousel -->
+  {% if page.carousels %}
+    <div class="other-images">
+      <h1>Other Images</h1>
+      {% include carousel.html height="50" unit="%" duration="7" number="1" %}
+    </div>
+  {% endif %}
+  
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
     {% if page.categories.size > 0 %}
