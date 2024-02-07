@@ -151,6 +151,8 @@
   left: 0;
   right: 0;
   opacity: 1;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 {% for item in page.carousels[number].images %}
 .carousel__track .carousel__slide:nth-of-type({{ forloop.index }}) {
@@ -181,8 +183,9 @@
 {% for item in page.carousels[number].images %}
 .carousel__slide:nth-of-type({{ forloop.index }}),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
+  background-color: #292929;
 }
 {% endfor %}
 </style>

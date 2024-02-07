@@ -16,7 +16,7 @@ carousels:
     - image: /assets/img/posts/LobangCorner/LobangCorner_Preview-02.png
     - image: /assets/img/posts/LobangCorner/LobangCorner_Preview-03.png
     - image: /assets/img/posts/LobangCorner/LobangCorner_Preview-04.png
-    - image: /assets/img/posts/LobangCorner/LobangCorner_Preview-05.png
+    - image: /assets/img/posts/LobangCorner/LobangCorner_Slide-03.png
     - image: /assets/img/posts/LobangCorner/LobangCorner_Preview-06.png
 ---
 
