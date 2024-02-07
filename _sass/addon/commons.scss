@@ -639,7 +639,7 @@ main {
 .input-focus {
   box-shadow: none;
   border-color: var(--input-focus-border-color) !important;
-  background: center !important;
+  // background: center !important;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
@@ -984,7 +984,7 @@ search {
   width: 100%;
   border-radius: 1rem;
   border: 1px solid var(--search-border-color);
-  background: var(--main-bg);
+  background: var(--search-bg-color);
   padding: 0 0.5rem;
 
   i {
@@ -1029,7 +1029,7 @@ search {
   }
 
   .post-tag {
-    display: inline-block;
+    display: inline-block;  
     line-height: 1rem;
     font-size: 1rem;
     background: var(--search-tag-bg);
