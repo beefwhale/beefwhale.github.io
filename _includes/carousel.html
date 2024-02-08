@@ -2,6 +2,11 @@
 {% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
 {% assign letters = letterstring | split: ',' %}
 {% assign number = include.number | minus: 1 %}
+<div class="expanded_image_container" id="expanded_image_container">
+  <div class="expanded_image_content">
+    <img class="expanded_image" id="expanded_image" src="/assets/img/ghibli_jellyfish.png" alt="">
+  </div>
+</div>
 <div class="carousel__holder">
     <div id="carousel{{ number }}" class="carousel">
         {% for item in page.carousels[number].images %}
@@ -39,11 +44,7 @@
         </div>
     </div>
 </div>
-<div class="expanded_image_container" id="expanded_image_container">
-  <div class="expanded_image_content">
-    <img class="expanded_image" id="expanded_image" src="/assets/img/ghibli_jellyfish.png" alt="">
-  </div>
-</div>
+
 
 <style>
 .carousel__holder {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: 1rem 0 1rem;}
@@ -268,13 +269,11 @@
   },{{ include.duration }}000);
   {% endif %}
 
-  document.onreadystatechange = function(e)
-{
-    if (document.readyState === 'complete')
-    {
-        //dom is ready, window.onload fires later
+  document.onreadystatechange = function(e){
+    if (document.readyState === 'complete'){
+      //dom is ready, window.onload fires later
     }
-}
+  }
   window.onload = function addOnClickListener(){
     const carouselObject =  Array.from(document.getElementsByClassName("carousel__slide"))
     carouselObject.forEach(element => {
