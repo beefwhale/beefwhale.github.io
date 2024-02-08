@@ -1118,7 +1118,7 @@ search {
 
 #main-wrapper {
   position: relative;
-
+  background-color: var(--posts-bg);
   @include pl-pr(0);
 
   > .container {
