@@ -27,7 +27,7 @@
         <div class="carousel__track">
           <ul>
             {% for item in page.carousels[number].images %}
-            <li class="carousel__slide"><img src="{{ item.image }}" alt="" /><a href="{{site.baseurl}}{{ item.image }}"></a></li>
+            <li class="carousel__slide"><img src="{{ item.image }}" alt="" /></li>
             {% endfor %}
           </ul>
         </div>
@@ -163,7 +163,14 @@
   overflow: hidden;
 }
 .carousel__slide a {display: block;}
-.carousel__slide img {height: 100%;}
+.carousel__slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    position: absolute;
+    background-color: #262626;
+}
 .carousel--thumb .carousel__indicator {
   height: 30px;
   width: 30px;
@@ -207,14 +214,14 @@
             }
         }
   }
-  {% if include.duration %}
-  setInterval(function(){
-    var j=0;
-    var elements = document.querySelectorAll('#carousel{{ number}} .carousel__control--forward');
-    for(i=(elements.length - 1);i>-1;i--) {
-      if(isVisible(elements[i])) j=i;
-    }
-    elements[j].click();
-  },{{ include.duration }}000);
-  {% endif %}
+//   {% if include.duration %}
+//   setInterval(function(){
+//     var j=0;
+//     var elements = document.querySelectorAll('#carousel{{ number}} .carousel__control--forward');
+//     for(i=(elements.length - 1);i>-1;i--) {
+//       if(isVisible(elements[i])) j=i;
+//     }
+//     elements[j].click();
+//   },{{ include.duration }}000);
+//   {% endif %}
 </script>
