@@ -268,7 +268,7 @@
   },{{ include.duration }}000);
   {% endif %}
 
-  window.onload = function addOnClickListener(){
+  window.document.body.onload = function addOnClickListener(){
     const carouselObject =  Array.from(document.getElementsByClassName("carousel__slide"))
     carouselObject.forEach(element => {
       element.addEventListener("click", () => openCarouselImage(element.getAttribute('style')));
