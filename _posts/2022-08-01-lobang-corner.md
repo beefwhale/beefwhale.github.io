@@ -13,11 +13,7 @@ image:
 carousels:
   - images: 
     - image: /assets/img/posts/LobangCorner/LobangCorner_Preview-01.png
-    - image: /assets/img/posts/LobangCorner/LobangCorner_Preview-02.png
-    - image: /assets/img/posts/LobangCorner/LobangCorner_Preview-03.png
-    - image: /assets/img/posts/LobangCorner/LobangCorner_Preview-04.png
     - image: /assets/img/posts/LobangCorner/LobangCorner_Slide-03.png
-    - image: /assets/img/posts/LobangCorner/LobangCorner_Preview-06.png
 ---
 
 An android application built for an assignment, **LobangCorner** aims to bring back the joy and love of sharing with its blogging and recipe features, while providing a space to promote hawker and local businesses.

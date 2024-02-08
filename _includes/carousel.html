@@ -2,6 +2,11 @@
 {% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
 {% assign letters = letterstring | split: ',' %}
 {% assign number = include.number | minus: 1 %}
+<div class="expanded_image_container" id="expanded_image_container">
+  <div class="expanded_image_content">
+    <img class="expanded_image" id="expanded_image" src="">
+  </div>
+</div>
 <div class="carousel__holder">
     <div id="carousel{{ number }}" class="carousel">
         {% for item in page.carousels[number].images %}
@@ -188,6 +193,41 @@
   background-color: #292929;
 }
 {% endfor %}
+
+.expanded_image_container{
+  height: 100%;
+  width: 100%;
+  max-width: 900px;
+  display: none;
+  position: absolute;
+  z-index: 2;
+  margin: 0; 
+  top: 0;
+  left:0;
+  padding-left: 6px;
+  padding-right: 6px;
+  box-sizing: border-box; 
+  text-align: center;
+  background-color: #181717d1;
+  transition: all .35s ease-in-out;
+}
+.expanded_image_content{
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+.expanded_image{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 40px 0 40px;
+  margin: 0 auto;
+}
 </style>
 
 <script>
@@ -227,4 +267,31 @@
     elements[j].click();
   },{{ include.duration }}000);
   {% endif %}
+
+  window.onload = function addOnClickListener(){
+    carouselObject =  Array.from(document.getElementsByClassName("carousel__slide"))
+    carouselObject.forEach(element => {
+      element.addEventListener("click", () => openCarouselImage(element.getAttribute('style')));
+    });
+  }
+  function openCarouselImage(imageObjectStyle){
+    expanded_image_container_object = document.getElementById("expanded_image_container")
+    expanded_image_object = document.getElementById("expanded_image")
+
+    // Retrieve URL of carousel__Slider object
+    url = imageObjectStyle.substring(imageObjectStyle.indexOf("(")+1, imageObjectStyle.indexOf(")"))
+    url_parsed = url.replace(/'/g,'')
+    // Change Elements of covering 
+    expanded_image_container_object.style.display = "block"
+    expanded_image_container_object.style.zIndex = 5
+    expanded_image_object.src = encodeURI(url_parsed)
+    // Close Expanded Elements 
+    expanded_image_container_object.addEventListener("click", () => closeCarouselImage())
+  }
+  function closeCarouselImage(){
+    expanded_image_container_object = document.getElementById("expanded_image_container")
+    
+    expanded_image_container_object.style.display = "none"
+    expanded_image_container_object.style.zIndex = -10
+  }
 </script>
