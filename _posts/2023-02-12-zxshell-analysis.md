@@ -1,0 +1,37 @@
+---
+title: Malware Analysis on popular RAT Trojan, Zxshell
+author: yongqing
+date: 2023-02-12 00:00:00 +0800
+categories: [Ngee Ann Poly]
+tags: [Malware Analysis, Assembly]
+pin: false
+math: false
+mermaid: false
+carousels:
+  - images: 
+    - image: /assets/img/posts/ZxshellAnalysis/ZxshellAnalysis_Image_01.png
+    - image: /assets/img/posts/ZxshellAnalysis/ZxshellAnalysis_Image_02.png
+---
+
+In this project, we analyzed the popular Remote Access Trojan (RAT), Zxshell both dynamically and statically with popular malware analysis tools to uncover what possibly happens behind infected systems.
+
+{% include embed/youtube.html id='TuVZkCVDKtQ?si=pEc35UD_9pXRdaql' %}
+_Watch the video above for the full analysis of the report on the malware._
+
+## About this Project
+This project was an assignment for the module ‘Malware Analysis Tools & Techniques’ where we were equipped with basic and advanced skills in analyzing malwares both statically and dynamically. For this assignment, we chose ZxShell, a remote access trojan as our malware to be analyzed.
+
+In summary, through our analysis we learned how the malware DLL installs itself within the system to avoid detection. It injects itself into a valid windows process that isn’t used by running through a list of services and runs its using svchost.exe. This way it masks the presence as a legitimate windows service to bypass visual detection. Svchost runs many different services adding to the noise, making it harder to detect. After installation and injecting itself into the system, the ShellMain function runs before the ShellMainThread. The ShellMainThread calls for a function that checks the registry path every 2 seconds to ensure that it hasn’t been modified, or discovered. If it is, the malware would lay low for a bit. To make a connection with the controller, the malware masks its outgoing connection to the by sending a request through the default browser, in most cases internet explorer. Some features of Zxshell includes collecting the information infected computer, a keylogger, connect to a proxy service, access video or display hardware.
+
+## Roles and Contributions
+Advanced Static and Dynamic Analysis.
+
+## My Take on this Project
+This was an extremely challenging assignment as although we were taught on how to use the tools and equipped with some of the skills, it was our first time dealing with a whole packaged malware used to target legitimate individuals and organizations. Researching into this malware was like dealing with a black box problem and it built a lot of perseverance in myself due to the amount of research it needed and tenacity it required. Despite how difficult this assignment was, I left this module feeling even more inspired and interested in Malware Analysis as I loved the challenge it gave and the occasional ‘Wonka’ moments I had. It was a fantastic introduction and insight into malware analysis.
+
+## Achievements
+Grade: A
+
+## Special Thanks
+**Team Members**
+: Lai Yo Ming

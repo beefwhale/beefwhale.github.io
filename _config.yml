@@ -16,7 +16,7 @@ timezone: Asia/Singapore
 
 title: Yongqing's Web Space # the main title
 
-tagline: A simple site documenting my projects, experiences and maybe some yappering. # it will display as the sub-title
+tagline: A simple portfolio (or maybe blog?) documenting my projects, experiences and maybe some yappering. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A simple site documenting my projects, experiences and maybe some yappering.
@@ -40,9 +40,9 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
     - https://github.com/beefwhale # change to your github homepage
+    - https://www.linkedin.com/in/yongqing-wang-017991211/
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
 
