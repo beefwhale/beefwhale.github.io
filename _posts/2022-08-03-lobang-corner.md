@@ -34,7 +34,7 @@ An android application built for an assignment, **LobangCorner** aims to bring b
 _A brief description of Lobang Corner_
 LobangCorner is a social Android Application created for the ‘Mobile Application & Development’ module in Year 2 of studying in Ngee Ann Polytechnic.
 
-Although not a requirement in the assignment, LobangCorner was built and designed with a purpose and goal in mind. The app is a community for Singaporean food enthusiasts to share about their favourite hawker stalls and recipes. Centered around the theme of “Preserving Hawker Culture”, the primary goal of the app is to revive and support hawker businesses by bringing out the Singaporean spirit of sharing through its community.
+Although not a requirement in the assignment, LobangCorner was built and designed with a purpose and goal in mind. The app is a community for Singaporean food enthusiasts to share about their favourite hawker stalls and recipes. Centered around the theme of **“Preserving Hawker Culture”**, the primary goal of the app is to revive and support hawker businesses by bringing out the Singaporean spirit of sharing through its community.
 
 ### Main Features
 The app consists of two main features: Hawker Corner & Recipe Corner. 
