@@ -1,5 +1,5 @@
 
-# Yongqing's Webspace v2
+# Yongqing's Webspace
 built with Jekyll and Chirpy
-Visit the site: https://beefwhale.github.io/v2
+Visit the site: https://beefwhale.github.io/
   
