@@ -2,7 +2,7 @@
 title: Final Year Interdisciplinary Capstone Project
 author: yongqing
 date: 2023-08-21 00:00:00 +0800
-categories: [Ngee Ann Poly]
+categories: [Portfolio, Ngee Ann Poly]
 tags: [Telegram, Android Development, Vue.js, Laravel, Java, Python, MongoDB, NoSQL]
 pin: false
 math: false
