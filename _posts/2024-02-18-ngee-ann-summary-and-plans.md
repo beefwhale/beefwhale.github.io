@@ -64,10 +64,6 @@ There is still roughly 6 months before the university begins so I get some time 
 
 One of the things I have decided to work on is my Offensive Security Skills. In Ngee Ann I had a small friend group to join hackathons but never a CTF one which discouraged me to join CTF events greatly despite being interested. WELL NOT ANYMORE. Time's too short to be waiting for anyone and the first activity of my 6 months break is to play CTFs and bug bounties. I will blogging my way through the challenges on this page as well so stay tuned :)) 
 
-#### Open Source Development
-
-I believe strongly in free software and have been wanting to get into Open Source development for the longest time but I've always felt like I lacked the expertise to contribute. However, GSoC 2024 is coming up and I plan to submit proposals to make it my netry into open source. Accepted or not, I plan to give my all.
-
 #### Rust
 
 Another thing I've decided to work on will be Rust. It is a low level language but a safer alternative to C and C++ (which I have no personal motivation to pick up right now) and I decided that Rust would be a fun choice to start with! They have great documentation, and a friendly community which really helps. I plan to complete 'The Book' first before building my first OS in Rust.
