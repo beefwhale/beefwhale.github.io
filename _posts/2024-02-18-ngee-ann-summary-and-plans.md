@@ -1,5 +1,5 @@
 ---
-title: A recap of my time in Ngee Ann + Plans before university
+title: A recap of my time in Ngee Ann + plans before university
 author: yongqing
 date: 2024-02-18 00:00:00 +0800
 categories: [Blogs]
