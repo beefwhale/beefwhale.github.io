@@ -6,16 +6,13 @@ order: 4
 
 **Hi! I'm Yongqing, the author of this page.**
 
-I'm Singaporean and an incoming Freshman. I hope this blog interests you and I update it regularly. I like mechanical keyboards and a lot of other nerdy stuff. Feel free to contact me if you have any questions or feedback!
+I'm Singaporean and an incoming Freshman. I hope this blog interests you and I update it regularly. Feel free to contact me on my socials if you have any questions or feedback!
 
 ## Going back in time..
-_View previous versions of my portfolio_
 
-Version 1, made with vanilla HTML/CSS/JS and Bootstrap
-: <https://beefwhale.github.io/v1>
+View previous versions of my portfolio:
 
-Version 2, made with Jekyll and Chirpy
-: Congrats, you're looking at it!
+[Version 1](https://beefwhale.github.io/v1), made with vanilla HTML/CSS/JS and Bootstrap.
 
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
