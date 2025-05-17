@@ -2,8 +2,8 @@
 title: Understanding Hand Mixers and Induction Cookers
 author: yongqing
 date: 2024-05-31 00:00:00 +0800
-categories: [Repair Kopitiam]
-tags: [Volunteering, Engineering]
+categories: [Repair & Upgrades]
+tags: [Volunteering, Engineering, Hardware]
 pin: false
 math: false
 mermaid: false

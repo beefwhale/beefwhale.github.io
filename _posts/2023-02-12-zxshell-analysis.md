@@ -2,7 +2,7 @@
 title: Malware Analysis on popular RAT Trojan, Zxshell
 author: yongqing
 date: 2023-02-12 00:00:00 +0800
-categories: [Portfolio, Ngee Ann Poly]
+categories: [Projects, Ngee Ann Poly]
 tags: [Malware Analysis, Assembly]
 pin: false
 math: false

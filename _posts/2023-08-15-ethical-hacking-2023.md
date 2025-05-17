@@ -2,7 +2,7 @@
 title: Ethical Hacking, Exploitation & Post Exploitation leveraging on Log4shell
 author: yongqing
 date: 2023-08-15 00:00:00 +0800
-categories: [Portfolio, Ngee Ann Poly]
+categories: [Projects, Ngee Ann Poly]
 tags: [Ethical Hacking]
 pin: false
 math: false

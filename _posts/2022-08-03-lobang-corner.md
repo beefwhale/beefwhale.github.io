@@ -2,8 +2,8 @@
 title: LobangCorner, an Android Application to Preserve Hawker Culture
 author: yongqing
 date: 2022-08-03 00:00:00 +0800
-categories: [Portfolio, Ngee Ann Poly]
-tags: [Android Development, Java, Adobe Illustrator]
+categories: [Projects, Ngee Ann Poly]
+tags: [Android Development, Java, Design]
 pin: false
 math: false
 mermaid: false

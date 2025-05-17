@@ -4,7 +4,7 @@ author: yongqing
 date: 2022-10-17 00:00:00 +0800
 categories: [Hackathons]
 tags: [AWS, Figma, Devpost]
-pin: true
+pin: false
 math: false
 mermaid: false
 image:
@@ -82,4 +82,4 @@ Champion (Tertiary Category, ZALORA)
 : Mr Wesley Teo, Ms Siew Siew Ong
 
 ## Links
-Devpost: <https://devpost.com/software/aws-build-on-challenge-2022>
+[Devpost](https://devpost.com/software/aws-build-on-challenge-2022)
