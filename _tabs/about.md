@@ -8,7 +8,7 @@ order: 4
 
 I'm a Computer Engineering Freshman at NTU residing in Singapore. I love all things computers from hardware to software, and believe in the right to repair movement. Usually this is where people say *"Outside you'll catch me tinkering on.."* but no you'll never catch me outside. Legend says that the grass is green.
 
-Contact me on my socials for a chat anytime. Currently open to work opportunities!
+Contact me on my socials for a chat anytime. Currently open to work opportunities!😎
 
 
 
