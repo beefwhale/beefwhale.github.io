@@ -16,7 +16,8 @@ timezone: Asia/Singapore
 
 title: Yongqing's Web Space # the main title
 
-tagline: A simple portfolio (or maybe blog?) documenting my projects, experiences and maybe some yappering. (Please clear your cache if you do not see any recent updates) # it will display as the sub-title
+tagline: Talking about projects in tech, cybersecurity and AI here. Currently interested in hardware and philosophy!
+ # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A simple site documenting my projects, experiences and maybe some yappering.
