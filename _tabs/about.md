@@ -6,19 +6,17 @@ order: 4
 
 # Hi, I'm Yongqing!
 
-## If you're my future/current employer, read this:
-I'm a Computer Engineering Freshman at NTU residing in Singapore interested in topics in software engineering, cybersecurity, design and recently I've been getting into philosophy! More specifically topics regarding Metaphysics, Conciousness and Epistomology. I enjoy doing various hobbies in my free time and dable in various parts of tech often! Currently open to work opportunities.
+I'm a Computer Engineering Freshman at NTU residing in Singapore. I love all things computers from hardware to software, and believe in the right to repair movement. Usually this is where people say *"Outside you'll catch me tinkering on.."* but no you'll never catch me outside. Legend says that the grass is green.
 
-## If you're NOT my future/current employer, read this:
-*Now that I've gotten all seriousness out of the way...skibididlydoo*
+Contact me on my socials for a chat anytime. Currently open to work opportunities!
 
-This blog exists so I can read back at the past work I did before my interview and remember what exactly I did.
+
 
 <!-- Feel free to contact me on my socials about anything related to tech, design, hardware or even a simple chat. My inbox is always open. Toodles~! -->
 
-## Going back in time..
+### Going back in time..
 
-[Version 1](https://beefwhale.github.io/v1), made with vanilla HTML/CSS/JS and Bootstrap. Simple stuff.
+[Version 1](https://beefwhale.github.io/v1), made with vanilla HTML/CSS/JS and Bootstrap. Simple shtuff.
 
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
