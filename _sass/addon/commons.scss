@@ -337,6 +337,8 @@ sup {
 .post-preview {
   @extend %rounded;
 
+  position: relative;
+  overflow: hidden;
   border: 0;
   background: var(--card-bg);
   box-shadow: var(--card-shadow);
@@ -345,6 +347,7 @@ sup {
     @extend %rounded;
 
     content: '';
+    inset: 0;
     width: 100%;
     height: 100%;
     position: absolute;
