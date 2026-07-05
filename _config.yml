@@ -14,13 +14,13 @@ timezone: Asia/Singapore
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Yongqing's Web Space # the main title
+title: Yongqing's Echo Chamber 🐄🐳 # the main title
 
-tagline: Talking about projects in tech, cybersecurity and AI here. Currently interested in hardware and philosophy!
+tagline: The place where I try to convince you I'm doing something big brained and useful while also being a little bit of a yapper.
  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A simple site documenting my projects, experiences and maybe some yappering.
+  A simple site documenting my projects, experiences, recipes and maybe some yappering.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.

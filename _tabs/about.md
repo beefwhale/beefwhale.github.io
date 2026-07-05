@@ -5,11 +5,11 @@ order: 5
 hide_title: true
 ---
 
-# Hi, I'm Yongqing!
+# Hello, I'm Yongqing 🐄🐳
 
-I'm a Computer Engineering Freshman at NTU residing in Singapore. I love all things computers from hardware to software, and believe in the right to repair movement. Usually this is where people say *"Outside you'll catch me tinkering on.."* but no you'll never catch me outside. Legend says that the grass is green.
+A Computer Engineering Sophomore at NTU residing in Singapore and I love all things computers from hardware to software. I believe in the right to repair movement and digital freedom and privacy rights *yay*. I love what I do now, but also I hope to become a professional chef/restaurant owner one day, so I have recently added a new section of **recipes** to blog that journey of developing new tastes *yay* stay tuned.
 
-Contact me on my socials for a chat anytime. Currently open to work opportunities!😎
+Contact me on my socials for a chat anytime! 😎 Currently open to work opportunities or just staring at water *yay*.
 
 
 
