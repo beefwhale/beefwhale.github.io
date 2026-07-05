@@ -9,7 +9,9 @@ layout: page
 {% assign df_dayjs_m = site.data.locales[lang].df.archives.dayjs | default: '/ MM' %}
 
 <div id="archives" class="pl-xl-3">
-  {% for post in site.posts %}
+  {% assign regular_posts = site.posts | where_exp: 'item', 'item.section != "recipes" and item.section != "recipe"' %}
+
+  {% for post in regular_posts %}
     {% assign cur_year = post.date | date: '%Y' %}
 
     {% if cur_year != last_year %}

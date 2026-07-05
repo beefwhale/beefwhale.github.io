@@ -4,7 +4,9 @@ swcache: true
 ---
 
 [
-  {% for post in site.posts %}
+  {% assign regular_posts = site.posts | where_exp: 'item', 'item.section != "recipes" and item.section != "recipe"' %}
+
+  {% for post in regular_posts %}
   {
     "title": {{ post.title | jsonify }},
     "url": {{ post.url | relative_url | jsonify }},
