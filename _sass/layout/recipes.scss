@@ -1,0 +1,33 @@
+html.recipe-mode {
+  background-color: var(--main-bg);
+  background-image: url('/assets/img/recipes-food-wallpaper.svg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 672px 448px;
+  background-position: center;
+}
+
+body.recipe-mode {
+  background: transparent;
+
+  #avatar img {
+    content: url('/assets/img/favicons/screaming_cat_moustache.png');
+    object-fit: cover;
+  }
+
+  #main-wrapper {
+    background-color: rgba(0, 0, 0, 0.18);
+  }
+
+  search,
+  #search-trigger {
+    display: none !important;
+  }
+}
+
+.recipe-post-list {
+  .recipe-empty {
+    padding: 1rem;
+  }
+}
+

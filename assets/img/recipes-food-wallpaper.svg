@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="672" height="448" viewBox="0 0 672 448">
+  <style>
+    text {
+      font-size: 30px;
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+
+    .column {
+      opacity: 0.26;
+      animation: drift 36s linear infinite;
+    }
+
+    .column:nth-of-type(2) {
+      animation-duration: 42s;
+      animation-delay: -8s;
+    }
+
+    .column:nth-of-type(3) {
+      animation-duration: 33s;
+      animation-delay: -14s;
+    }
+
+    .column:nth-of-type(4) {
+      animation-duration: 45s;
+      animation-delay: -4s;
+    }
+
+    .column:nth-of-type(5) {
+      animation-duration: 38s;
+      animation-delay: -18s;
+    }
+
+    .column:nth-of-type(6) {
+      animation-duration: 48s;
+      animation-delay: -11s;
+    }
+
+    .column:nth-of-type(7) {
+      animation-duration: 35s;
+      animation-delay: -22s;
+    }
+
+    @keyframes drift {
+      from {
+        transform: translateY(0);
+      }
+
+      to {
+        transform: translateY(-448px);
+      }
+    }
+  </style>
+
+  <g class="column">
+    <text x="48" y="32">&#x1f35c;</text>
+    <text x="48" y="96">&#x1f354;</text>
+    <text x="48" y="160">&#x1f357;</text>
+    <text x="48" y="224">&#x1f345;</text>
+    <text x="48" y="288">&#x1f9c0;</text>
+    <text x="48" y="352">&#x1f96c;</text>
+    <text x="48" y="416">&#x1f35e;</text>
+    <text x="48" y="480">&#x1f35c;</text>
+    <text x="48" y="544">&#x1f354;</text>
+    <text x="48" y="608">&#x1f357;</text>
+    <text x="48" y="672">&#x1f345;</text>
+    <text x="48" y="736">&#x1f9c0;</text>
+    <text x="48" y="800">&#x1f96c;</text>
+    <text x="48" y="864">&#x1f35e;</text>
+  </g>
+
+  <g class="column">
+    <text x="144" y="0">&#x1f354;</text>
+    <text x="144" y="64">&#x1f357;</text>
+    <text x="144" y="128">&#x1f345;</text>
+    <text x="144" y="192">&#x1f9c0;</text>
+    <text x="144" y="256">&#x1f96c;</text>
+    <text x="144" y="320">&#x1f35e;</text>
+    <text x="144" y="384">&#x1f35c;</text>
+    <text x="144" y="448">&#x1f354;</text>
+    <text x="144" y="512">&#x1f357;</text>
+    <text x="144" y="576">&#x1f345;</text>
+    <text x="144" y="640">&#x1f9c0;</text>
+    <text x="144" y="704">&#x1f96c;</text>
+    <text x="144" y="768">&#x1f35e;</text>
+    <text x="144" y="832">&#x1f35c;</text>
+  </g>
+
+  <g class="column">
+    <text x="240" y="32">&#x1f357;</text>
+    <text x="240" y="96">&#x1f345;</text>
+    <text x="240" y="160">&#x1f9c0;</text>
+    <text x="240" y="224">&#x1f96c;</text>
+    <text x="240" y="288">&#x1f35e;</text>
+    <text x="240" y="352">&#x1f35c;</text>
+    <text x="240" y="416">&#x1f354;</text>
+    <text x="240" y="480">&#x1f357;</text>
+    <text x="240" y="544">&#x1f345;</text>
+    <text x="240" y="608">&#x1f9c0;</text>
+    <text x="240" y="672">&#x1f96c;</text>
+    <text x="240" y="736">&#x1f35e;</text>
+    <text x="240" y="800">&#x1f35c;</text>
+    <text x="240" y="864">&#x1f354;</text>
+  </g>
+
+  <g class="column">
+    <text x="336" y="0">&#x1f345;</text>
+    <text x="336" y="64">&#x1f9c0;</text>
+    <text x="336" y="128">&#x1f96c;</text>
+    <text x="336" y="192">&#x1f35e;</text>
+    <text x="336" y="256">&#x1f35c;</text>
+    <text x="336" y="320">&#x1f354;</text>
+    <text x="336" y="384">&#x1f357;</text>
+    <text x="336" y="448">&#x1f345;</text>
+    <text x="336" y="512">&#x1f9c0;</text>
+    <text x="336" y="576">&#x1f96c;</text>
+    <text x="336" y="640">&#x1f35e;</text>
+    <text x="336" y="704">&#x1f35c;</text>
+    <text x="336" y="768">&#x1f354;</text>
+    <text x="336" y="832">&#x1f357;</text>
+  </g>
+
+  <g class="column">
+    <text x="432" y="32">&#x1f9c0;</text>
+    <text x="432" y="96">&#x1f96c;</text>
+    <text x="432" y="160">&#x1f35e;</text>
+    <text x="432" y="224">&#x1f35c;</text>
+    <text x="432" y="288">&#x1f354;</text>
+    <text x="432" y="352">&#x1f357;</text>
+    <text x="432" y="416">&#x1f345;</text>
+    <text x="432" y="480">&#x1f9c0;</text>
+    <text x="432" y="544">&#x1f96c;</text>
+    <text x="432" y="608">&#x1f35e;</text>
+    <text x="432" y="672">&#x1f35c;</text>
+    <text x="432" y="736">&#x1f354;</text>
+    <text x="432" y="800">&#x1f357;</text>
+    <text x="432" y="864">&#x1f345;</text>
+  </g>
+
+  <g class="column">
+    <text x="528" y="0">&#x1f96c;</text>
+    <text x="528" y="64">&#x1f35e;</text>
+    <text x="528" y="128">&#x1f35c;</text>
+    <text x="528" y="192">&#x1f354;</text>
+    <text x="528" y="256">&#x1f357;</text>
+    <text x="528" y="320">&#x1f345;</text>
+    <text x="528" y="384">&#x1f9c0;</text>
+    <text x="528" y="448">&#x1f96c;</text>
+    <text x="528" y="512">&#x1f35e;</text>
+    <text x="528" y="576">&#x1f35c;</text>
+    <text x="528" y="640">&#x1f354;</text>
+    <text x="528" y="704">&#x1f357;</text>
+    <text x="528" y="768">&#x1f345;</text>
+    <text x="528" y="832">&#x1f9c0;</text>
+  </g>
+
+  <g class="column">
+    <text x="624" y="32">&#x1f35e;</text>
+    <text x="624" y="96">&#x1f35c;</text>
+    <text x="624" y="160">&#x1f354;</text>
+    <text x="624" y="224">&#x1f357;</text>
+    <text x="624" y="288">&#x1f345;</text>
+    <text x="624" y="352">&#x1f9c0;</text>
+    <text x="624" y="416">&#x1f96c;</text>
+    <text x="624" y="480">&#x1f35e;</text>
+    <text x="624" y="544">&#x1f35c;</text>
+    <text x="624" y="608">&#x1f354;</text>
+    <text x="624" y="672">&#x1f357;</text>
+    <text x="624" y="736">&#x1f345;</text>
+    <text x="624" y="800">&#x1f9c0;</text>
+    <text x="624" y="864">&#x1f96c;</text>
+  </g>
+</svg>
