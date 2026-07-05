@@ -18,9 +18,5 @@ package-lock.json
 .idea
 .vscode
 
-#Posts Guidelines 
-_posts/2019-08-08-text-and-typography.md
-_posts/2000-01-01-template.md
-
 # Misc
 assets/js/dist
