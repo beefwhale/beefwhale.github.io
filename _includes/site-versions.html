@@ -1,0 +1,19 @@
+<div class="site-versions">
+  {% for version in site.data.site_versions %}
+    {% assign href = version.url %}
+    {% unless href contains '://' %}
+      {% assign href = href | relative_url %}
+    {% endunless %}
+
+    <a class="site-version" href="{{ href }}">
+      <span class="site-version-main">
+        <span class="site-version-title">
+          <i class="fas fa-history fa-fw"></i>
+          {{ version.title }}
+        </span>
+        <span class="site-version-description">{{ version.description }}</span>
+      </span>
+      <span class="post-tag">{{ version.label }}</span>
+    </a>
+  {% endfor %}
+</div>

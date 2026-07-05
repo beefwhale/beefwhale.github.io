@@ -17,7 +17,7 @@ Contact me on my socials for a chat anytime. Currently open to work opportunitie
 
 ### Going back in time..
 
-[Version 1](https://beefwhale.github.io/v1), made with vanilla HTML/CSS/JS and Bootstrap. Simple shtuff.
+{% include site-versions.html %}
 
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
