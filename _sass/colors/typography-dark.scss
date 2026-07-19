@@ -4,13 +4,10 @@
 
 @mixin dark-scheme {
   /* Framework color */
-  // --main-bg: rgba(27, 27, 30, 0.8);
+  --main-bg: linear-gradient(rgba(14, 14, 16, 0.78), rgba(14, 14, 16, 0.78)),
+    url("../../assets/img/ghibli_jellyfish.png") center / cover fixed no-repeat;
   // --mask-bg: rgb(27, 27, 28);
   --main-border-color: rgb(45, 44, 44);
-  background-image: url("../../assets/img/ghibli_jellyfish_darkened_gaussian.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 
   /* Common color */
   --text-color: #eeeeee;
@@ -52,7 +49,7 @@
   --avatar-border-color: rgb(206, 206, 206, 0.9);
 
   /* Topbar */
-  // --topbar-bg: rgb(27, 27, 30, 0.64);
+  --topbar-bg: transparent;
   --topbar-text-color: var(--text-color);
   --search-border-color: rgb(55, 55, 55);
   --search-bg-color: #232328;

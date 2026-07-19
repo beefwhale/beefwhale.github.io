@@ -4,22 +4,23 @@
 
 @mixin light-scheme {
   /* Framework color */
-  --main-bg: white;
+  --main-bg: linear-gradient(rgba(246, 248, 250, 0.72), rgba(246, 248, 250, 0.72)),
+    url("../../assets/img/ghibli_jellyfish.png") center / cover fixed no-repeat;
   --mask-bg: #c1c3c5;
-  --main-border-color: #f3f3f3;
+  --main-border-color: rgba(215, 221, 228, 0.72);
 
   /* Common color */
-  --text-color: #34343c;
-  --text-muted-color: #757575;
+  --text-color: #22242a;
+  --text-muted-color: #5f6670;
   --text-muted-hightlight-color: inherit;
-  --heading-color: #2a2a2a;
+  --heading-color: #14161a;
   --label-color: #585858;
   --blockquote-border-color: #eeeeee;
   --blockquote-text-color: #757575;
   --link-color: #0056b2;
   --link-underline-color: #dee2e6;
-  --button-bg: #ffffff;
-  --btn-border-color: #e9ecef;
+  --button-bg: rgba(255, 255, 255, 0.82);
+  --btn-border-color: rgba(214, 220, 228, 0.82);
   --btn-backtotop-color: #686868;
   --btn-backtotop-border-color: #f1f1f1;
   --btn-box-shadow: #eaeaea;
@@ -38,35 +39,36 @@
   );
 
   /* Sidebar */
-  --site-title-color: rgb(113, 113, 113);
-  --site-subtitle-color: #717171;
-  --sidebar-bg: #f6f8fa;
-  --sidebar-border-color: #efefef;
-  --sidebar-muted-color: #545454;
+  --site-title-color: #22242a;
+  --site-subtitle-color: #535b66;
+  --sidebar-bg: rgba(246, 248, 250, 0.84);
+  --sidebar-border-color: rgba(214, 220, 228, 0.78);
+  --sidebar-muted-color: #404852;
   --sidebar-active-color: #1d1d1d;
-  --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
-  --sidebar-btn-bg: white;
-  --sidebar-btn-color: #8e8e8e;
+  --sidebar-hover-bg: rgba(218, 229, 239, 0.82);
+  --sidebar-btn-bg: rgba(255, 255, 255, 0.72);
+  --sidebar-btn-color: #58616d;
   --avatar-border-color: white;
 
   /* Topbar */
-  --topbar-bg: rgb(255, 255, 255, 0.7);
+  --topbar-bg: transparent;
   --topbar-text-color: rgb(78, 78, 78);
   --search-border-color: rgb(240, 240, 240);
   --search-icon-color: #c2c6cc;
   --input-focus-border-color: #b8b8b8;
 
   /* Home page */
-  --post-list-text-color: dimgray;
+  --post-list-text-color: #444b55;
   --btn-patinator-text-color: #555555;
   --btn-paginator-hover-color: var(--sidebar-bg);
 
   /* Posts */
+  --posts-bg: rgba(250, 252, 255, 0.8);
   --toc-highlight: #0550ae;
   --btn-share-color: gray;
   --btn-share-hover-color: #0d6efd;
-  --card-bg: white;
-  --card-hovor-bg: #e2e2e2;
+  --card-bg: rgba(255, 255, 255, 0.84);
+  --card-hovor-bg: rgba(231, 236, 242, 0.86);
   --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0,
     rgba(211, 209, 209, 0.15) 0 0 0 1px;
   --footnote-target-bg: lightcyan;
