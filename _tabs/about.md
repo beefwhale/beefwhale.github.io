@@ -12,9 +12,6 @@ A Computer Engineering Sophomore at NTU residing in Singapore and I love all thi
 Contact me on my socials for a chat anytime! 😎 Currently open to work opportunities or just staring at water *yay*.
 
 
-
-<!-- Feel free to contact me on my socials about anything related to tech, design, hardware or even a simple chat. My inbox is always open. Toodles~! -->
-
 ### Going back in time..
 
 {% include site-versions.html %}

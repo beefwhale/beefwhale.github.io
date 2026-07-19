@@ -14,9 +14,9 @@ timezone: Asia/Singapore
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Yongqing's Chamber of Sheecrets 🐄🐳 # the main title
+title: ~/yongqing 🐄🐳 # the main title
 
-tagline: The place where I try to convince you I'm doing something big brained and useful while also being a little bit of a yapper.
+tagline: The place where I try to convince you I'm doing something really smart and useful.
  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed

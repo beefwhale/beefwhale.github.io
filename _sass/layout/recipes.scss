@@ -10,6 +10,24 @@ html.recipe-mode {
 body.recipe-mode {
   background: transparent;
 
+  #sidebar .site-title a {
+    font-size: 0;
+
+    &::before {
+      content: "~/yongqing/plate\1F969\FE0F \1F37D\FE0F";
+      font-size: 1.45rem;
+    }
+  }
+
+  #sidebar .site-subtitle {
+    font-size: 0;
+
+    &::before {
+      content: "Developing maybe edible, possibly poisonous concoctions and detailing their inspirations. Allergens may include soy, gluten, dairy, eggs, peanuts, tree nuts, sesame, fish, shellfish and every single possible common allergen here.";
+      font-size: 0.95rem;
+    }
+  }
+
   #avatar img {
     content: url('/assets/img/favicons/screaming_cat_moustache.png');
     object-fit: cover;
@@ -30,4 +48,3 @@ body.recipe-mode {
     padding: 1rem;
   }
 }
-
