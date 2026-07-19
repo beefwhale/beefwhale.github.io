@@ -28,9 +28,31 @@ body.recipe-mode {
     }
   }
 
-  #avatar img {
-    content: url('/assets/img/favicons/screaming_cat_moustache.png');
-    object-fit: cover;
+  #sidebar .profile-wrapper {
+    position: relative;
+  }
+
+  #sidebar .profile-wrapper::before {
+    content: '';
+    position: absolute;
+    top: -2rem;
+    left: 1.9rem;
+    width: 9.5rem;
+    height: 4.5rem;
+    z-index: 999;
+    pointer-events: none;
+    transform: rotate(-5deg);
+    background: url('/assets/img/chef-hat.png') center / contain no-repeat;
+  }
+
+  #avatar {
+    position: relative;
+    z-index: 2;
+
+    img {
+      content: url('/assets/img/favicons/screaming_cat_moustache.png');
+      object-fit: cover;
+    }
   }
 
   #main-wrapper {
@@ -46,5 +68,11 @@ body.recipe-mode {
 .recipe-post-list {
   .recipe-empty {
     padding: 1rem;
+  }
+}
+
+@media all and (min-width: 1650px) {
+  body.recipe-mode #sidebar .profile-wrapper::before {
+    left: 2.9rem;
   }
 }
