@@ -3,6 +3,8 @@
 icon: fas fa-info-circle
 order: 5
 hide_title: true
+hide_panel_access: true
+hide_search_access: true
 ---
 
 # Hello, I'm Yongqing (aka beefwhale) 🐄🐳

@@ -1014,6 +1014,18 @@ search {
   @extend %cursor-pointer;
 }
 
+[data-hide-search] {
+  search,
+  #search-cancel {
+    display: none !important;
+  }
+
+  #search-trigger {
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
 #search-input {
   background: center;
   border: 0;
