@@ -8,3 +8,4 @@ Visit the site: https://beefwhale.github.io/
 
 1. Download ruby and jekyll
 2. Run with `bundle exec jekyll s`
+3. Build with `bundle exec jekyll build`
