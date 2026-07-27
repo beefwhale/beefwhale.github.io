@@ -40,12 +40,13 @@
     /* Year dot */
     &::after {
       content: '';
-      display: inline-block;
-      position: relative;
+      position: absolute;
       border-radius: 50%;
       width: 12px;
       height: 12px;
-      left: 21.5px;
+      top: 0.65rem;
+      left: 81px;
+      transform: translateX(-50%);
       border: 3px solid;
       background-color: var(--timeline-year-dot-color);
       border-color: var(--timeline-node-bg);
