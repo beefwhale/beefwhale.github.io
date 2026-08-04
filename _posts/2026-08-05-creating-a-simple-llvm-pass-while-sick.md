@@ -90,3 +90,7 @@ prints the result
 I probably could make the pass into a standalone plugin like the guide talks about but im a lil too sick for that. But im super proud of myself to do this without AI writing any code (I even had to turn copilot off cus it was getting annoying), it ended feeling more rewarding and I find myself missing that whole struggle and wait I get it now process a whole lot these days.
 
 Anyways fun chall! Im going to sleep.
+
+## Links
+
+[Repo](https://github.com/beefwhale/llvm_pass)
