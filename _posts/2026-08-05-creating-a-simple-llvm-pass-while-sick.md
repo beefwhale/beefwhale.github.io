@@ -37,7 +37,7 @@ And this was super simple! The LLVM Programmers Manual has a [class definition](
 
 So writing the pass was the easy part after this lol. I just has to run through the objects and check for load and store instructions.
 
-```
+```cpp
 #include "llvm/CountMemoryLoadStore.h"
 #include "llvm/IR/Function.h"
 #include "llvm/IR/Instruction.h"
