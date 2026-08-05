@@ -96,8 +96,6 @@ while IFS= read -r line || [[ -n "$line" ]]; do
     'img_path:'*)
       if [[ "$with_images" == true ]]; then
         printf 'img_path: /%s\n' "$image_path"
-      else
-        printf '%s\n' "$line"
       fi
       ;;
     *)
