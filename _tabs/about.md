@@ -7,12 +7,16 @@ hide_panel_access: true
 hide_search_access: true
 ---
 
-# Hello, I'm Yongqing (aka beefwhale) 🐄🐳
+# Hello, I'm Yongqing (aka beefwhale🐄🐳)
 
-A Computer Engineering Sophomore at NTU residing in Singapore and I love all things computers from hardware to software. I believe in the right to repair movement and digital freedom and privacy rights *yay*. I love what I do now, but also I hope to become a professional chef/diner owner one day, so I have recently added a new section of **recipes** to blog that journey of developing new tastes *yay* stay tuned.
+A computer engineering major at NTU residing in Singapore and I like working with **kind people** and **interesting problems** :3 
 
-Contact me on my socials for a chat anytime! 😎 Currently open to work opportunities or just staring at water and waves 🌊.
+things 
+- love all things computers from software to hardware 
+- I believe in the right to repair movement, digital freedom, privacy rights and generally open source stuff
+- becoming a professional restaurant chef/owner one day is one of my goals so I recently added the `recipes` section to blog that journey. 
 
+If anything you read here interests you, let me know. 
 
 ### Going back in time..
 
