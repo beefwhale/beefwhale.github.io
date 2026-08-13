@@ -39,11 +39,13 @@ layout: compress
             {% unless page.hide_panel_access %}
               <div class="access">
                 {% include_cached update-list.html lang=lang %}
-                {% include_cached trending-tags.html lang=lang %}
               </div>
             {% endunless %}
 
             {% for _include in layout.panel_includes %}
+              {% if _include == 'trending-tags' %}
+                {% continue %}
+              {% endif %}
               {% assign _include_path = _include | append: '.html' %}
               {% include {{ _include_path }} lang=lang %}
             {% endfor %}
