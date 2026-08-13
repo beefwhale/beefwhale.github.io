@@ -50,7 +50,6 @@
       border: 3px solid;
       background-color: var(--timeline-year-dot-color);
       border-color: var(--timeline-node-bg);
-      box-shadow: 0 0 2px 0 #c2c6cc;
       z-index: 1;
     }
   }
@@ -127,10 +126,13 @@
       float: left;
       top: 1.35rem;
       left: 71px;
-      background-color: var(--timeline-node-bg);
-      box-shadow: 0 0 3px 0 #c2c6cc;
+      background-color: #7fa287;
       z-index: 1;
     }
+  }
+
+  .recipe-post a::before {
+    background-color: #9278b5;
   }
 } /* #archives */
 
