@@ -1,6 +1,6 @@
 ---
 layout: default
-refactor: true
+refactor: false
 ---
 
 {% include lang.html %}
@@ -34,7 +34,9 @@ refactor: true
             {% endif %}
 
             <div class="col-md-5">
-              <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
+              <div class="preview-img{% unless lqip %} shimmer{% endunless %}">
+                <img src="{{ src }}" alt="{{ alt }}" {{ lqip }} loading="lazy">
+              </div>
             </div>
 
             {% assign card_body_col = '7' %}

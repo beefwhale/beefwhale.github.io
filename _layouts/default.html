@@ -24,8 +24,10 @@ layout: compress
         {% include topbar.html lang=lang %}
 
         <div class="row flex-grow-1">
-          <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
-            {% if layout.refactor or layout.layout == 'default' %}
+          <main aria-label="Main Content" class="col-12 col-lg-11 {% if page.hide_panel_access %}col-xl-12{% else %}col-xl-9{% endif %} px-md-4">
+            {% if page.layout == 'recipes' %}
+              {{ content }}
+            {% elsif layout.refactor or layout.layout == 'default' %}
               {% include refactor-content.html content=content lang=lang %}
             {% else %}
               {{ content }}
@@ -33,19 +35,19 @@ layout: compress
           </main>
 
           <!-- panel -->
+          {% unless page.hide_panel_access %}
           <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 mb-5 text-muted">
-            {% unless page.hide_panel_access %}
-              <div class="access">
-                {% include_cached update-list.html lang=lang %}
-                {% include_cached trending-tags.html lang=lang %}
-              </div>
-            {% endunless %}
+            <div class="access">
+              {% include_cached update-list.html lang=lang %}
+              {% include_cached trending-tags.html lang=lang %}
+            </div>
 
             {% for _include in layout.panel_includes %}
               {% assign _include_path = _include | append: '.html' %}
               {% include {{ _include_path }} lang=lang %}
             {% endfor %}
           </aside>
+          {% endunless %}
         </div>
 
         <div class="row">
@@ -60,7 +62,9 @@ layout: compress
           </div>
         </div>
 
-        {% include_cached search-results.html lang=lang %}
+        {% unless page.hide_search_access %}
+          {% include_cached search-results.html lang=lang %}
+        {% endunless %}
       </div>
 
       <aside aria-label="Scroll to Top">
@@ -84,6 +88,8 @@ layout: compress
       {% include mermaid.html %}
     {% endif %}
 
-    {% include_cached search-loader.html %}
+    {% unless page.hide_search_access %}
+      {% include_cached search-loader.html %}
+    {% endunless %}
   </body>
 </html>
