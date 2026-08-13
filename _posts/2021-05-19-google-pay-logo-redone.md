@@ -2,7 +2,7 @@
 title: Google Pay Logo Redesigned
 author: yongqing
 date: 2021-05-19 00:00:00 +0800
-categories: [Projects, Ngee Ann Poly]
+categories: [Pre-U]
 tags: [Design]
 pin: false
 math: false
