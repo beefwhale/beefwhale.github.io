@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "spellcheck": "cspell lint --config cspell.json --no-progress --report typos"
+  },
+  "devDependencies": {
+    "cspell": "10.0.0"
+  }
+}

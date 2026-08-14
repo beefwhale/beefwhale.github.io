@@ -1,0 +1,30 @@
+name: Housekeeping
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  spelling:
+    name: Check spelling
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check spelling
+        uses: streetsidesoftware/cspell-action@v8
+        with:
+          config: cspell.json
+          use_cspell_files: true
+          incremental_files_only: true
+          strict: true
+          suggestions: true
+          report: typos

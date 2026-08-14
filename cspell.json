@@ -1,0 +1,41 @@
+{
+  "version": "0.2",
+  "language": "en-GB",
+  "files": [
+    "_posts/**/*.md",
+    "*.md"
+  ],
+  "ignorePaths": [
+    "_site/**",
+    "assets/**",
+    "Gemfile.lock",
+    "_posts/2000-01-01-template.md",
+    "_posts/2019-08-08-text-and-typography.md"
+  ],
+  "patterns": [
+    {
+      "name": "markdown-fenced-code",
+      "pattern": "/```[\\s\\S]*?```/g"
+    },
+    {
+      "name": "markdown-inline-code",
+      "pattern": "/`[^`\\n]+`/g"
+    }
+  ],
+  "languageSettings": [
+    {
+      "languageId": "markdown",
+      "ignoreRegExpList": [
+        "markdown-fenced-code",
+        "markdown-inline-code"
+      ]
+    }
+  ],
+  "words": [
+    "Chirpy",
+    "GreyCTF",
+    "Jekyll",
+    "Kopitiam",
+    "Yongqing"
+  ]
+}

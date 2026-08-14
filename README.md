@@ -6,9 +6,10 @@ Visit the site: https://beefwhale.github.io/
   
 # Setup and Testing on localhost
 
-1. Download ruby and jekyll
-2. Run with `bundle exec jekyll s`
-3. Build with `bundle exec jekyll build`
+1. Download Ruby, Jekyll, and Node.js.
+2. Run `npm install` to install the local spelling checker.
+3. Run with `bundle exec jekyll s`. 
+4. Build with `bundle exec jekyll build`.
 
 # Create a Post
 
