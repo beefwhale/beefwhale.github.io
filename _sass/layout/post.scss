@@ -1,3 +1,6 @@
+@use '../addon/module' as *;
+@use '../variables-hook' as *;
+
 /*
   Post-specific style
 */
@@ -357,5 +360,4 @@ h1 + .post-meta {
     margin-right: -0.5rem;
   }
 }
-
 

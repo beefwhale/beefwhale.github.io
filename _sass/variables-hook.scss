@@ -1,5 +1,3 @@
-/*
-  Appending custom SCSS variables will override the default ones in `_sass/addon/variables.scsss`
-*/
-
+/* Configure theme variables here before forwarding them to the other modules. */
+@forward 'addon/variables';
 
