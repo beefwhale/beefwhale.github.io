@@ -25,7 +25,7 @@ The first appliance that I worked with was an induction cooker that wouldn't tur
 
 ### Baby steps..baby steps.
 
-Starting with the power source of the appliance is crucial when something isnt turning on. Often times it could be the plug fuse blowing to save the device from actually catching on fire. Then how can we check such connections using the multimeter?
+Starting with the power source of the appliance is crucial when something isn't turning on. Often times it could be the plug fuse blowing to save the device from actually catching on fire. Then how can we check such connections using the multimeter?
 
 That's simple. 
 - For direct wired connections that can be accessed, we can use the Ohm setting with the lowest resistance to check its connection directly from plug to the wire end.
@@ -99,7 +99,7 @@ But what exactly caused the fuse to go bust? To see it happen in real time, we d
 **There was definitely something wrong with the motor.**
 
 ### What could've possibly gone wrong?
-At that point, we were pretty confident that the problem lied with the motor inside the hand mixer. Since the spark and burning occured at the brushes of the motor and we have tested the diodes under the PCB relay of the main board to be working fine. 
+At that point, we were pretty confident that the problem lied with the motor inside the hand mixer. Since the spark and burning occurred at the brushes of the motor and we have tested the diodes under the PCB relay of the main board to be working fine.
 
 With close to no experience in mechanical engineering, google has always been my best friend.  I found out that the KitchenAid 9 Hand Mixer uses a **Standard Universal Motor** and the segment that sparked was at **commutator and carbon brush** of the motor. 
 
@@ -107,7 +107,7 @@ With close to no experience in mechanical engineering, google has always been my
 
 Some sparking in a brush type motor is normal[^Carbon-Motor-Sparking] but excessive sparking could be due to brush wear or a dirty commutator.
 
-In our case, we tried cleaning the commutator without disassembly and resoldered a new fuse to the board, but it wasnt sufficient and sparked again. At this point, replacing the entire universal motor would be easier. However for future references I have found a [Brush Wear Guide](https://evmc2.wordpress.com/wp-content/uploads/2013/05/brushwearguide.pdf) to be informative and rather helpful.
+In our case, we tried cleaning the commutator without disassembly and resoldered a new fuse to the board, but it wasn't sufficient and sparked again. At this point, replacing the entire universal motor would be easier. However for future references I have found a [Brush Wear Guide](https://evmc2.wordpress.com/wp-content/uploads/2013/05/brushwearguide.pdf) to be informative and rather helpful.
 
 Understanding how the universal motor works with electromagnetism is great too and if you would to understand more about its inner workings, I found this [video](https://youtu.be/-qS85aIvleQ?si=UxYk7JBQ_78eVhnz){:target="_blank"}  by Matthias Wandel to be very helpful.  (It also explains why such motors arent used on long powered devices like fridges and air-conditioners, induction motors are used instead)
 {: .prompt-tip }
@@ -120,7 +120,7 @@ If the brush contact and grime isn't the issues, there are also other shorting t
 
 This workshop was definitely more rewarding than I expected even if our attempts at fixing the broken appliances were not successful. In such a short period of time I managed to pick up troubleshooting methods from my fellow volunteers and learned a lot more on the multimeter. I love engineering, and spending time uncovering the unknown especially for the community can be so rewarding in this field. I cant wait to attend the next workshop in June! Hope to see yall there~
 
-PS: Since you've reached the end.. I greatly appreciate any form of feedback for my writing, as I constantly try to improve my documentation skills with each post. Do not hesistate to contact me with ur suggestions/improvements! 
+PS: Since you've reached the end.. I greatly appreciate any form of feedback for my writing, as I constantly try to improve my documentation skills with each post. Do not hesitate to contact me with ur suggestions/improvements!
 
 ## References
 [^Carbon-Motor-Sparking]:<https://forum.allaboutcircuits.com/threads/motor-carbon-brush-sparking-why-it-happens-and-how-can-i-fix-it.165109/#:~:text=Some%20sparking%20at%20the%20brushes,dust%20between%20the%20commutator%20segments.>

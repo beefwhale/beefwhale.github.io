@@ -13,7 +13,7 @@ It has been almost 3 weeks since my last presentation in Ngee Ann Polytechnic. H
 
 ## My time in Ngee Ann
 
-For some context, I entered Ngee Ann Polytechnic in 2021 around the middle of the pandemic into the Common ICT Diploma (CICTP). It was my first choice for JAE and fairly easy to get in with my results. I didnt join CICTP with an existing passion though, I was still discovering what I wanted to do and I was hoping that tech was for me. 
+For some context, I entered Ngee Ann Polytechnic in 2021 around the middle of the pandemic into the Common ICT Diploma (CICTP). It was my first choice for JAE and fairly easy to get in with my results. I didn't join CICTP with an existing passion though, I was still discovering what I wanted to do and I was hoping that tech was for me.
 
 ### Year 1
 
@@ -32,7 +32,7 @@ Then Year 2 came around.  The first semester of Year 2 we could pick electives a
 #### WorldSkills 2023 
 
 _I digress abit here and talk about my WorldSkills experience._
-Worldskills is a national competion between tertiary instituitions and like its named, its a competion based on skill. I competed in the Web Technologies category that year alone and the competition consisted of 6 papers Modules A to F, 3 hours each spread out across 3 days. Web Technologies is basically Web Development and the papers covered from frontend leetcode questions to WordPress to Web Design and also Backend. To compete, competitors needed to be extremely familiar with full stack development, various frameworks and CMS development as there was no Internet access allowed during the papers.
+Worldskills is a national competition between tertiary instituitions and like its named, its a competition based on skill. I competed in the Web Technologies category that year alone and the competition consisted of 6 papers Modules A to F, 3 hours each spread out across 3 days. Web Technologies is basically Web Development and the papers covered from frontend leetcode questions to WordPress to Web Design and also Backend. To compete, competitors needed to be extremely familiar with full stack development, various frameworks and CMS development as there was no Internet access allowed during the papers.
 
 Well this competition sounds like its for the pros right? WHICH IT IS.
 
@@ -50,7 +50,7 @@ Under the Singtel SHINE Program (a program that no longer exists), I worked in t
 
 Physically, I feel the same when I was 17 and fresh out of secondary school. But mentally,  I've grown so much not just in terms of knowledge but it grew my character as an individual as well. I'm glad to have discovered my passion through the 3 years of my polytechnic education and have no regrets in joining this industry. I'm forever thankful for the people that have inspired me, believed in me, worked with me and mentored me. I have always found trouble believing in myself, and without them I wouldn't have been able to get to where I am today. For that, I am forever grateful.
 
-However, despite the amount of knowledge I've gained throughout these 3 years I still feel an enormous knowlegde gap between what I know and what's out there. My time in Ngee Ann exposed me to many different areas of tech which is great, but the knowledge that I have feels...half baked. I touched on a lot of software development and 2 semesters on cybersecurity but do I feel like an expert? Definitely not. Poly barely scraped the surface and there is still so much left to master.
+However, despite the amount of knowledge I've gained throughout these 3 years I still feel an enormous knowledge gap between what I know and what's out there. My time in Ngee Ann exposed me to many different areas of tech which is great, but the knowledge that I have feels...half baked. I touched on a lot of software development and 2 semesters on cybersecurity but do I feel like an expert? Definitely not. Poly barely scraped the surface and there is still so much left to master.
 
 ## So...what now..?
 

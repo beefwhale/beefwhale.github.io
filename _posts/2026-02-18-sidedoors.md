@@ -32,7 +32,7 @@ It got me starting to question myself: Am I really putting in the work? Am I get
 
 At this point in time I was starting my STEM creative studio startup - 3PLY (that I am still working on till this day) but we were at a very trying point where we could not maintain enough focus on the company while every founder including myself did it on the side. I realised that as a co-founder, I wasn't dedicated at all to the journey and in short - wasn't risking enough. On the front and to myself I constantly kept putting off my responsibilities at the expense of time to avoid facing my reality. I know. I am a terrible co-founder. 
 
-This realization solidified in me the day I tried asking my bosses for an investment in my own company (even though they dont operate on a VC model). Whihc was also the day I decided to give my all into this firm. (Thanks Ian and Myles!)
+This realization solidified in me the day I tried asking my bosses for an investment in my own company (even though they dont operate on a VC model). Which was also the day I decided to give my all into this firm. (Thanks Ian and Myles!)
 
 ### Side doors
 
@@ -46,7 +46,7 @@ With all the growth I've gotten out of my experiences being out of school I thin
 
 ## Afterword
 
-Woah! I got a little introspective there when this blog was meant to be more hehehahas. I planned to get a little deeper into the technical things I learned at the firm, poker, game theory etc. but I think that will be for another day! For now I think this is enough words for one post. I hope it brought you some perpective as well. If you have gotten this far, thank you for reading and goodnight!
+Woah! I got a little introspective there when this blog was meant to be more hehehahas. I planned to get a little deeper into the technical things I learned at the firm, poker, game theory etc. but I think that will be for another day! For now I think this is enough words for one post. I hope it brought you some perspective as well. If you have gotten this far, thank you for reading and goodnight!
 
 
 

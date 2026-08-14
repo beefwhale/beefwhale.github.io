@@ -90,7 +90,7 @@ Grade: A/A+
 **Lecturer**
 : Mr Wesley Teo
 
-**Addtional Credits**
+**Additional Credits**
 : Drew inspirations of LobangCorner from <https://ourgrandfatherstory.com/>
 :  **Sharecipe** and <https://allrecipes.com/> for some of their UI Design.
 

@@ -42,7 +42,7 @@ Gaining access to FTP Server: Finally, with Hydra we can brute force the ftp sys
 ![Desktop View](/assets/img/posts/EthicalHacking2023/EthicalHacking_Image_03.png){: width="972" height="589" }
 _Brute forcing into the FTP server with Hydra on Kali_
 
-### Post-Explotation
+### Post-Exploitation
 For post exploitation, I conducted 2 activities. First being SSH cracking and persistence, and Secondly being Gaining RCE access using LFI. I will only be talking more about the former.
 
 {% include embed/youtube.html id='_7C8T74Rfio?si=E41X5jYOkAMbgC5T' %}
