@@ -1,6 +1,6 @@
 ---
 title: I started a toilet paper company that made comics, then I left.
-description: my first startup
+description: documenting the start to the end of time of the first company I created. rip 3ply.
 author: yongqing
 date: 2026-08-21 00:00:00 +0800
 categories: [Blog]
