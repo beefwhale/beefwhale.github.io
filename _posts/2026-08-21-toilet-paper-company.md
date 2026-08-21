@@ -6,7 +6,7 @@ date: 2026-08-21 00:00:00 +0800
 categories: [Blog]
 tags: []
 pin: false
-published: false
+published: true
 section: posts
 # Optional: set this once to use filenames for all local images in the post.
 img_path: /assets/img/posts/toilet-paper-company
@@ -103,9 +103,10 @@ Another design decision of Jam is his collar and tie since he moved to Pigeonver
 
 I try to tie all these details of them throughout the narrative of the comic that is meant to be slowly revealed through the series. I explain more about how these layers work later on. But you could spot these information in the comics.
 
-##insert image ##
+![Desktop View](themes.png){: width="972" height="589" }
+_Some pages that had more unsaid backstory_
 
-> In my scripts I would get my writers to specifically weave in such details to hint at a larger idea
+> In my scripts (I no longer have access to) I would get my writers to specifically weave in such details to hint at a larger idea
 {: .prompt-info }
 
 
@@ -117,15 +118,18 @@ From the start to the current timeline I have moved from an artist role to an **
 
 I frequently worked with Founder A and C on pitch decks and also created our narrative framework (mainly for the pitches), chose our company's name, had our characters created, and pushed our first comic out. I also handled a lot of our administrative workflows, things like our domains, website, socials, emails, file organizations and things were finally into place.
 
-> I learned that to send emails and not appear as spam u need to configure `SPF`, `DKIM`, and `DMARC` records (email security standards) 
+> I learned ta lot abt emails: to send emails and not appear as spam u need to configure `SPF`, `DKIM`, and `DMARC` records (email security standards) 
 {: .prompt-info }
 
  My founders handled the rest. We had a few bumps but overall, were on fire.
 
 ![Desktop View](3layer.png){: width="972" height="589" }
-_How our content was layered which birthed the name of the company_
+_How our content was layered which birthed the name of the company. Everything in this company is layered in thirds_
 
 I planned for our comics to be released in 2 formats, **short bite sized** and **long-form** 3 part content that broke down our tech concept in 3 distinct areas: *WHY WHAT HOW*. The first 3 comics were on blockchains and this was how they were planned.
+
+![Desktop View](blockchain.png){: width="972" height="589" }
+_Pages from our 3 part comic on blockchain_
 
 1. **WHY**: Decentralization, main benefit of the blockchain
 2. **WHAT**: Purpose Bound Money, a usage for day to day
@@ -133,13 +137,12 @@ I planned for our comics to be released in 2 formats, **short bite sized** and *
 
 While each 3-part also had a narrative focus where the blockchain 3-part followed Jam and Pickles new move to the city, job and apartment searching. I was world building at this point.
 
-##insert img##
-
 Our journey to the 3 was also not instant, since Jonyl also had a full time job we decided to keep her as our concept artist and we roped in our main illustrators: Debbie (who became Founder D), Naveen, Beatrice and Levi. 
 
-It was thanks to their love for Jam and pickle that eventually they came to live. I have so much love for them and will always be grateful for their patience with me and their works. From Aug'25 to Feb'26 we made great progress, eventually creating over **11 posts** ranging from comics to shorts.
+![Desktop View](coinflip.png){: width="972" height="589" }
+_A short comic on the statistics behind a coin flip_
 
-##insert img##
+It was thanks to their love for Jam and pickle that eventually they came to live. I have so much love for them and will always be grateful for their patience with me and their works. From Aug'25 to Feb'26 we made great progress, eventually creating over **11 posts** ranging from comics to shorts.
 
 ## The finale
 
