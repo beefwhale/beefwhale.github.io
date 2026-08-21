@@ -8,8 +8,8 @@ Visit the site: https://beefwhale.github.io/
 
 1. Download Ruby, Jekyll, and Node.js.
 2. Run `npm install` to install the local spelling checker.
-3. Run with `bundle exec jekyll s`. 
-4. Build with `bundle exec jekyll build`.
+3. Build with `bundle exec jekyll build`.
+4. Run with `bundle exec jekyll s` or `bundle exec jekyll s --unpublish`
 
 # Create a Post
 
