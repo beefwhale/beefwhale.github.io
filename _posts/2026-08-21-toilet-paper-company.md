@@ -24,7 +24,7 @@ I started a small comics studio maybe almost 2 years ago. I had no idea how to m
 
 ## How we began
 
-The idea for the company started out pretty grey in december 2024 when my founder lets call him **Founder A** decided to talk to me about making tech concepts easier for people to understand. We felt that technology was accelerating at a pace too fast for the general public which can lead to a and since Founder A and I studied a cybersecurity diploma we saw a business opportunity here and we wanted to make it interesting. At this point, we were chatting a lot about the problem but never defined a solution, but somehow (i dont exactly remember how) we came up with the idea of using comics to translate these ideas and the company evolved from there.
+The idea for the company started out pretty grey in december 2024 when my a friend I've known since polytechnic lets call him **Founder A** decided to talk to me about making tech concepts easier for people to understand. We felt that technology was accelerating at a pace too fast for the general public and since Founder A and I studied a cybersecurity diploma we saw a business opportunity here. At this point, we were chatting a lot about the problem but never defined a solution, but somehow (i dont exactly remember how) we came up with the idea of using comics to translate these ideas and the company evolved from there.
 
 ## v1.0
 
