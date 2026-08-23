@@ -139,6 +139,9 @@ Each 3-part also had a narrative focus where the blockchain 3-part followed Jam 
 
 Our journey to the 3 was also not instant, since Jonyl also had a full time job we decided to keep her as our concept artist and we roped in our main illustrators: Debbie (who became Founder D), Naveen, Beatrice and Levi. 
 
+![Desktop View](process.png){: width="972" height="589" }
+_Our whole comic development process which usually takes up to 3 weeks so each comic has to be staggered_
+
 ![Desktop View](coinflip.png){: width="972" height="589" }
 _A short comic on the statistics behind a coin flip_
 
