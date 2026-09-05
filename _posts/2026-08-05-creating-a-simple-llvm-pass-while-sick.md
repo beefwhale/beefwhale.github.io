@@ -1,9 +1,9 @@
 ---
-title: 'Creating a simple LLVM Pass while sick and lying in bed'
+title: 'How to create a simple LLVM Pass while sick and lying in bed'
 description: 
 author: yongqing
 date: 2026-08-05 00:00:00 +0800
-categories: [Explorations]
+categories: [Today I Learned]
 tags: [LLVM]
 pin: false
 section: posts
